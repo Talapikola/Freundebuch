@@ -27,6 +27,37 @@
     height: 100vh;
   }
 
+  body{
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;;
+  }
+  #searchBar{
+    flex:1 auto;
+    border: 1px;
+    background-color: antiquewhite;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search {
+    width:40vb;
+    display: flex;
+    height:5vh;
+  }
+
+  #searchId{
+    border: 1px;
+    background-color: antiquewhite;
+    font-size: 1em;
+    cursor: pointer;
+
+  }
+
   .bi {
     vertical-align: -.125em;
     fill: currentColor;
@@ -49,6 +80,8 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
+
+
 
   .btn-bd-primary {
     --bd-violet-bg: #712cf9;
